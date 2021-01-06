@@ -1,0 +1,238 @@
+	*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			width: 100%;
+			height: 100%;
+			
+		}
+		.box{
+			width: 100%;
+			height: 500px;
+			text-align: center;
+			background-image: url(../img/九宫格_02.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			position: relative;
+		}
+		.box1{
+			width: 100%;
+			height: 800px;
+			background: url(../img/九宫格_03.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			margin-top: -2px;
+		}
+		.box2{
+			width: 100%;
+			height: 800px;
+			background: url(../img/九宫格_05.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 800px;
+			margin-top: -2px;
+		}
+		.cs{
+			font-size: 40px;
+			color: gold;
+			display: block;
+			width: 100%;
+			
+			position: absolute;
+			top: 430px;
+			
+		}
+		.guizebox{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			background: rgba(0,0,0,0.5);
+			display: none;
+		}
+		.meicishu{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			background: rgba(0,0,0,0.5);
+			display: none;
+		}
+		.meicishu1{
+			width: 550px;
+			background-color: white;
+			margin: 500px auto 0;
+			height: 300px;
+			text-align: center;
+			font-size: 40px;
+			border-radius: 8px;
+		}
+		.xinxi{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			background: rgba(0,0,0,0.5);
+			display: none;
+		}
+		.xinxi1{
+			width: 550px;
+			background-color: white;
+			margin: 500px auto 0;
+			height: 400px;
+			text-align: center;
+			font-size: 40px;
+			border-radius: 8px;
+		}
+		.xinxibox{
+			width: 80%;
+			height: 250px;
+			text-align: left;
+			margin: 30px auto 0;
+		}
+		.xinxibox input{
+			height: 40px;
+			width: 100%;
+			font-size: 40px;
+			border: solid 1px #808080;
+		}
+		.xinxibox p{
+			line-height: 30px;
+			font-size: 35px;
+			margin-top: 20px;
+		}
+		.zhongjiang{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			background: rgba(0,0,0,0.5);
+			display: none;
+		}
+		.zhongjiang1{
+			width: 550px;
+			background-color: white;
+			margin: 500px auto 0;
+			height: 600px;
+			text-align: center;
+			font-size: 40px;
+			border-radius: 8px;
+		}
+		.zjxx{
+			width: 100%;
+			height: 540px;
+			overflow: auto;
+		}
+		.zjxx h4{
+			color: gray;
+			margin-top: 20px;
+		}
+		.zjxx .gx{
+			font-size: 30px;
+			color: red;
+			margin-top: 10px;
+		}
+		.meicishu1 p{
+			line-height: 150px;
+		}
+		.gz{
+			width: 550px;
+			background-color: white;
+			margin: 500px auto 0;
+			height: 600px;
+			text-align: center;
+			font-size: 40px;
+			overflow : auto;
+		}
+		.guizebox button{
+			font-size: 50px;
+			border: solid 1px red;
+		}
+		.guizebox p{
+			text-indent: 40px;
+		}
+		.cjbox{
+			width: 700px;
+			height: 700px;
+			background-color: white;
+			border: solid 5px red;
+			margin: 0 auto;
+		}
+		.cjbox ul{
+			list-style: none;
+		}
+		.jp{
+			width: 220px;
+			height: 220px;
+			margin: 6px;
+			float: left;
+			transition: all 0.2s; 
+			box-sizing: border-box;
+		}
+		.jp:first-child{
+			border: solid 5px red;
+		}
+		.jp img{
+			width: 100%;
+		}
+		.wdjp{
+			width: 80%;
+			height: 190px;
+			margin: 0 auto;
+			position: relative;
+			text-align: center;
+			background-image: url(../img/4.png);
+			background-repeat: no-repeat;
+			background-size: 100.5% 102%;
+			border-radius:45px;
+			overflow: hidden;
+		}
+		.fachu{
+			width: 80%;
+			height: 400px;
+			border: solid 5px red;
+			margin: 50px auto 0;
+			background-color: white;
+			overflow: hidden;
+		}
+		.fachu p{
+			font-size: 50px;
+			color: red;
+		}
+		.wdjp p{
+			font-size: 60px;
+			font-family: "楷体";
+			width: 100%;
+			line-height: 200px;
+			position: absolute;
+			color: gold;
+		}
+		.close{
+			width: 50px;
+			height: 50px;
+			font-size: 80px;
+			right: 150px;
+			color: white;
+			position: absolute;
+			
+		}
+		a:link    {color:gold;text-decoration: none;}
+		a:visited {color:gold;text-decoration: none;}
+		a:hover   {color:gold;text-decoration: none;}
+		a:active  {color:gold;text-decoration: none;}
+		.gundong{
+			list-style: none;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 30px;
+			position: relative;
+		
+		}
+		.showjp{
+			overflow: hidden;
+		}
+		
